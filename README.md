@@ -1,7 +1,7 @@
 # Simple-MERN-app
 This is my first mern application 
 
-This project was solely made by myself to learn connecting Node JS with React. 
+I created this project only to learn connecting Node JS with React. 
 
 I used moongoose npm for creating connection between mongodb database and backend
 
