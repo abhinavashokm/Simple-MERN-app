@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +6,15 @@
 body {
   overflow: hidden;
 }
+
+/* CONTAINER */
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 /* CREATE USER SECTION */
 
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
@@ -79,10 +87,7 @@ input:-webkit-autofill:focus {
 /* USER DISPLAY SECTION */
 
 .userDisplaly {
-  margin-right: 28px;
   width: 50%;
-  float: right;
-  margin-top: -531px;
   height: 570px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -90,7 +95,6 @@ input:-webkit-autofill:focus {
 
 .card {
   margin: 15px;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
